@@ -1,0 +1,14 @@
+.creators-container {
+  flex-wrap: wrap;
+  gap: 1.5rem 1rem;
+  justify-content: center;
+}
+
+.creators {
+  padding-top: 3rem;
+  color: #fff;
+  gap: 2rem;
+  align-items: center;
+  padding-top: 3rem;
+  position: relative;
+}

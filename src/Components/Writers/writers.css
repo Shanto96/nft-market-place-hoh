@@ -1,0 +1,31 @@
+.writers {
+  color: #fff;
+  gap: 2rem;
+  align-items: center;
+  padding-top: 3rem;
+  position: relative;
+}
+
+.writer-items {
+  justify-content: center;
+  gap: 2rem;
+}
+
+.writers > :nth-child(1) {
+  width: 10rem;
+  height: 10rem;
+  left: 3rem;
+  top: 9rem;
+}
+.writers > :nth-child(2) {
+  left: 3rem;
+  transform: scale(1.5);
+}
+.writers > :nth-child(3) {
+  right: 3rem;
+  transform: scale(1.5);
+  bottom: 2rem;
+}
+.writers > :nth-child(4) {
+  top: 12rem;
+}

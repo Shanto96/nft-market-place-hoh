@@ -1,0 +1,67 @@
+.roadmap {
+  padding-top: 3rem;
+  position: relative;
+}
+
+.event-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+  gap: 30px;
+}
+
+.left-events {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.right-events {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.center-line {
+  width: 3px;
+  background: #833ad9;
+  z-index: 15;
+  margin: 0 -124px;
+  margin-top: -15px;
+}
+
+.roadmap > :nth-child(1) {
+  transform: scale(1.3) rotate(-20deg);
+  right: 22rem;
+  top: 3rem;
+}
+.roadmap > :nth-child(2) {
+  transform: scale(0.7) rotate(-20deg);
+  right: 17rem;
+  top: 6rem;
+}
+.roadmap > :nth-child(3) {
+  width: 20rem;
+  height: 20rem;
+  top: 30%;
+}
+.roadmap > :nth-child(5) {
+  top: 30%;
+  left: 25%;
+}
+.roadmap > :nth-child(4) {
+  width: 16rem;
+  height: 16rem;
+  bottom: 2rem;
+  right: 0;
+}
+.roadmap > :nth-child(6) {
+  top: 60%;
+  left: 25%;
+}
+.roadmap > :nth-child(7) {
+  top: 54%;
+  right: 25%;
+  transform: scale(1.5);
+}

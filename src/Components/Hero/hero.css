@@ -1,0 +1,218 @@
+.hero {
+  color: #fff;
+  height: 90vh;
+  align-items: center;
+  position: relative;
+}
+
+.h-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  justify-content: center;
+}
+
+.h-left > h2 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.h-left > h2 > span {
+  display: block;
+  font-weight: 200;
+}
+
+.h-left > img {
+  width: 425px;
+}
+
+.hero-description {
+  font-size: 16px;
+}
+
+.hero-btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-btn-container > :nth-child(1) {
+  background: var(--highlight);
+  color: #fff;
+  padding: 1rem;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.hero-btn-container > :nth-child(2) {
+  background: transparent !important;
+  border: none;
+  color: var(--highlight);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sub-heading {
+  font-size: 24px;
+}
+
+.hero-btns-container {
+  display: flex;
+  gap: 0.25rem;
+}
+.hero-btns-container > button {
+  font-size: 14px;
+  font-family: "Inter", "sans-serif";
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.397);
+  padding: 5px 1rem;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+
+.btn-border:hover {
+  background: var(--highlight);
+  cursor: pointer;
+}
+
+.h-crypto-container {
+  box-sizing: border-box;
+  position: relative;
+  width: 300px;
+  height: 409px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+
+  border: double 2px transparent;
+  border-radius: 22px;
+  background-image: linear-gradient(#080b2a, #080b2a),
+    linear-gradient(to right, rgba(21, 191, 253, 0.7), rgba(156, 55, 253, 0.7));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.h-crypto-container:before {
+  position: absolute;
+  width: 8rem;
+  height: 7.5rem;
+  bottom: -3.88rem;
+  right: -4.54rem;
+  transform: rotate(223deg);
+  content: "";
+  background: #080b2a;
+  border-right: 2px solid #732ec2;
+}
+.crypto-container-info {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.eth-price {
+  color: var(--highlight);
+}
+.crypto-img {
+  width: 100%;
+  height: 240px;
+}
+.crypto-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user {
+  color: rgba(150, 139, 161, 1);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.c-user {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.h-right {
+  display: flex;
+  gap: 2rem;
+  position: relative;
+  justify-content: flex-start;
+  flex: 1;
+}
+.second-crypto {
+  transform: rotate(18deg);
+  position: absolute;
+  left: 20rem;
+  top: 8rem;
+}
+
+.blur1 {
+  top: 0rem;
+  left: -10rem;
+  width: 18rem;
+  height: 25rem;
+}
+.blur2 {
+  width: 20rem;
+  height: 15rem;
+  right: -15rem;
+  top: -6rem;
+}
+
+.r-logo {
+  right: 15rem;
+  top: 5rem;
+}
+
+.line {
+  right: -10rem;
+  top: 15rem;
+  z-index: -1;
+}
+.starw1 {
+  left: -4rem;
+}
+.star1 {
+  transform: scale(0.5);
+  top: 6rem;
+  left: 10rem;
+}
+
+.star2 {
+  transform: scale(0.4);
+  top: 8rem;
+  right: 37rem;
+}
+.star3 {
+  transform: scale(0.4);
+  top: 4rem;
+  right: 15rem;
+}
+.star4 {
+  top: 2rem;
+  right: 2rem;
+}
+.star5 {
+  transform: scale(0.3);
+  bottom: 4rem;
+  right: 35rem;
+}
+.star6 {
+  bottom: 3rem;
+  right: 7rem;
+  transform: scale(0.3);
+}
